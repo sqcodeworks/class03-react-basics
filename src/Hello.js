@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './Hello.css';
 
 function Hello({name}) {
