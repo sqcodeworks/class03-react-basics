@@ -7,9 +7,12 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App storyTitle="The Hare and the Tortoise" currentYear="2023" previousYear={2022}/>
+    <div>
+      <br />The End! {35*35}</div>
   </React.StrictMode>
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
